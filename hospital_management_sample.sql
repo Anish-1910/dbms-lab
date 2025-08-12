@@ -77,28 +77,28 @@ INSERT INTO Department (DepartmentID, DeptName, HeadOfDept) VALUES (105, 'Dermat
 INSERT INTO Department (DepartmentID, DeptName, HeadOfDept) VALUES (106, 'Oncology', 'Doctor6');
 
 -- Insert into Doctor
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (301, 'doctor1', 'Heart', 'doctor1@hms.com', 101);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (302, 'doctor2', 'Brain', 'doctor2@hms.com', 102);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (303, 'doctor3', 'Bones', 'doctor3@hms.com', 103);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (304, 'doctor4', 'Children', 'doctor4@hms.com', 104);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (305, 'doctor5', 'Skin', 'doctor5@hms.com', 105);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (306, 'doctor6', 'Cancer', 'doctor6@hms.com', 106);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (307, 'doctor7', 'Heart', 'doctor7@hms.com', 101);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (308, 'doctor8', 'Brain', 'doctor8@hms.com', 102);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (309, 'doctor9', 'Bones', 'doctor9@hms.com', 103);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (310, 'doctor10', 'Children', 'doctor10@hms.com', 104);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (311, 'doctor11', 'Skin', 'doctor11@hms.com', 105);
-INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (312, 'doctor12', 'Cancer', 'doctor12@hms.com', 106);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (301, 'Ram', 'Heart', 'doctor1@hms.com', 101);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (302, 'Janu', 'Brain', 'doctor2@hms.com', 102);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (303, 'Raman', 'Bones', 'doctor3@hms.com', 103);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (304, 'Shenba', 'Children', 'doctor4@hms.com', 104);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (305, 'Laya', 'Skin', 'doctor5@hms.com', 105);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (306, 'Rakshan', 'Cancer', 'doctor6@hms.com', 106);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (307, 'Anish', 'Heart', 'doctor7@hms.com', 101);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (308, 'Pragadeesh', 'Brain', 'doctor8@hms.com', 102);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (309, 'Suman', 'Bones', 'doctor9@hms.com', 103);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (310, 'Himanshu', 'Children', 'doctor10@hms.com', 104);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (311, 'Pradeepan', 'Skin', 'doctor11@hms.com', 105);
+INSERT INTO Doctor (DoctorID, Name, Specialization, Email, DepartmentID) VALUES (312, 'Alice', 'Cancer', 'doctor12@hms.com', 106);
 
 -- Insert into Patient
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (501, 'patient1', 'M', TO_DATE('1995-04-12', 'YYYY-MM-DD'), 'A+');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (502, 'patient2', 'F', TO_DATE('1998-11-25', 'YYYY-MM-DD'), 'B+');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (503, 'patient3', 'M', TO_DATE('1992-07-08', 'YYYY-MM-DD'), 'O+');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (504, 'patient4', 'F', TO_DATE('1997-03-30', 'YYYY-MM-DD'), 'AB+');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (505, 'patient5', 'M', TO_DATE('1994-12-15', 'YYYY-MM-DD'), 'A-');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (506, 'patient6', 'F', TO_DATE('1996-01-10', 'YYYY-MM-DD'), 'B-');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (507, 'patient7', 'M', TO_DATE('1993-09-18', 'YYYY-MM-DD'), 'O-');
-INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (508, 'patient8', 'F', TO_DATE('1999-06-05', 'YYYY-MM-DD'), 'AB-');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (501, 'Liam', 'M', TO_DATE('1995-04-12', 'YYYY-MM-DD'), 'A+');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (502, 'Ava', 'F', TO_DATE('1998-11-25', 'YYYY-MM-DD'), 'B+');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (503, 'Marcus', 'M', TO_DATE('1992-07-08', 'YYYY-MM-DD'), 'O+');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (504, 'Noah', 'F', TO_DATE('1997-03-30', 'YYYY-MM-DD'), 'AB+');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (505, 'Mia', 'M', TO_DATE('1994-12-15', 'YYYY-MM-DD'), 'A-');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (506, 'Luca', 'F', TO_DATE('1996-01-10', 'YYYY-MM-DD'), 'B-');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (507, 'Ivy', 'M', TO_DATE('1993-09-18', 'YYYY-MM-DD'), 'O-');
+INSERT INTO Patient (PatientID, Name, Gender, DOB, BloodGroup) VALUES (508, 'Elaine', 'F', TO_DATE('1999-06-05', 'YYYY-MM-DD'), 'AB-');
 
 -- Insert into Treatment
 INSERT INTO Treatment (TreatmentID, TreatmentName, Cost, DepartmentID) VALUES (801, 'Angioplasty', 15000.00, 101);
